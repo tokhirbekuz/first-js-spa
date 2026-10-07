@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vanilla SPA</title>
+    <meta name="description" content="Frameworksiz Vanilla JavaScript SPA — o'rganish uchun loyiha.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Yagona HTML hujjat: qolgan hamma narsa JavaScript orqali shu yerga chiziladi. -->
+    <div id="app"></div>
+
+    <noscript>This app needs JavaScript to run.</noscript>
+
+    <!-- Classic scriptlar (module emas): file:// da ishlashi uchun. TARTIB MUHIM:
+         avval componentlar, keyin pagelar, keyin router va app. -->
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+    <script src="js/components/feature-card.js"></script>
+    <script src="js/components/stat-card.js"></script>
+    <script src="js/components/contact-info.js"></script>
+    <script src="js/components/form-field.js"></script>
+    <script src="js/pages/home.js"></script>
+    <script src="js/pages/about.js"></script>
+    <script src="js/pages/contact.js"></script>
+    <script src="js/pages/not-found.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
